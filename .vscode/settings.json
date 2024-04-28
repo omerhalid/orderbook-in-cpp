@@ -58,6 +58,9 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
     "algorithm": "cpp",
-    "format": "cpp"
+    "format": "cpp",
+    "xhash": "cpp",
+    "numeric": "cpp",
+    "vector": "cpp"
   }
 }
