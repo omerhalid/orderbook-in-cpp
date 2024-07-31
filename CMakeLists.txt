@@ -1,11 +1,8 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.10)
+project(OrderbookProject)
 
-# Set the project name
-project(OrderBook)
-
-# Specify the C++ standard
 set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Add the executable
-add_executable(OrderBook orderbook.cpp)
+include_directories(include)
+
+add_executable(OrderbookProject main.cpp src/Order.cpp src/Trade.cpp src/Orderbook.cpp)
