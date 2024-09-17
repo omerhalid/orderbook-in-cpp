@@ -33,10 +33,7 @@ The Orderbook Project is a C++ application simulating a financial order book. It
 
 #### Using CMake
 
-1. Clone the repository:
-
-   git clone https://github.com/yourusername/orderbook_project.git
-   cd orderbook_project
+1. Clone the repository
    
 ## Create a build directory:
 
